@@ -1,0 +1,4 @@
+baseURL = 'https://devdocs.mcenahle.page/'
+locale = 'zh-CN'
+title = 'Dev Docs Website'
+theme = 'hugo-book'
