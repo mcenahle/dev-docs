@@ -1,4 +1,17 @@
 baseURL = 'https://devdocs.mcenahle.page/'
-locale = 'zh-CN'
+languageCode = 'zh-CN'
 title = 'Dev Docs Website'
 theme = 'hugo-book'
+
+disablePathToLower = true
+enableGitInfo = true
+
+[params]
+  BookSection = 'docs'
+  BookTheme = 'auto'
+  BookSearch = true
+  BookComments = false
+
+  BookRepo = 'https://github.com/mcenahle/dev-docs'
+  BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
+  BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/{{ .Path }}'
