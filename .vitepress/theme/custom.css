@@ -1,0 +1,5 @@
+:is(.vp-external-link-icon,.vp-doc a[href*="://"],.vp-doc a[target=_blank]):not(:is(.no-icon,svg a,:has(img,svg))):after {
+    --icon: url("https://hi.mcenahle.page/icons/external-link.svg") !important;
+    width: 14px;
+    height: 14px;
+}
