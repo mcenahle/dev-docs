@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "docs",
   lang: 'zh-CN',
+  cleanUrls: true,
   
   title: "devdocs",
   description: "A VitePress Site",
