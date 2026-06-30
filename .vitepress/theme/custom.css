@@ -3,3 +3,21 @@
     width: 14px;
     height: 14px;
 }
+
+@font-face {
+  font-family: 'Tirra';
+  src: url('/Tirra-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tirra';
+  src: url('/Tirra-Bold.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+    font-family: "Tirra", sans-serif !important;
+}
