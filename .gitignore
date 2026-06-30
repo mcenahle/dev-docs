@@ -1,6 +1,4 @@
 node_modules/
-public/
-resources/_gen/
-.hugo_build.lock
 .idea
-themes/ananke/
+.vitepress/dist
+.vitepress/cache
