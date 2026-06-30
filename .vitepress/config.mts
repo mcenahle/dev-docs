@@ -29,5 +29,14 @@ export default defineConfig({
     ],
 
     externalLinkIcon: true,
+
+    editLink: {
+      pattern: 'https://github.com/mcenahle/dev-docs/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页'
+    },
+
+    search: {
+      provider: 'local'
+    }
   }
 })
